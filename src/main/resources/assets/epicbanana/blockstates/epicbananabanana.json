@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": { "model": "epicbanana:epicbananabanana" },
+	"face=up":{"model":"epicbanana:epicbananabanana", "y": 180},
+	"face=down":{"model":"epicbanana:epicbananabanana", "y": 90},
+	"face=south":{"model":"epicbanana:epicbananabanana"},
+	"face=north":{"model":"epicbanana:epicbananabanana", "y": 270}
+    }
+}
