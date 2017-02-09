@@ -1,11 +1,13 @@
 package com.thvardhan.epicbanana;
 
+import com.thvardhan.epicbanana.blocks.BananaLeaf;
 import com.thvardhan.epicbanana.blocks.BananaTrunk;
 import com.thvardhan.epicbanana.fruits.FruitBanana;
 import com.thvardhan.epicbanana.fruits.FruitPear;
 import com.thvardhan.epicbanana.handlers.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.HashMap;
 
@@ -24,7 +26,8 @@ public class ModBlocks {
      */
 
     public static void createModBlocks(){
-        blocks.put(new BananaTrunk(Material.WOOD,"banana_trunk"),"banana_trunk");
+        blocks.put(new BananaTrunk(Material.WOOD,"banana_log"),"banana_log");
+        blocks.put(new BananaLeaf("banana_leaf"),"banana_leaf");
         blocks.put(new FruitPear(Material.WOOD,"pear"),"pear");
         blocks.put(new FruitBanana(Material.WOOD,"banana"),"banana");
         registerAllBlocks();

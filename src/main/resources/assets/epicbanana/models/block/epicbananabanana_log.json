@@ -1,0 +1,13 @@
+{
+  
+  "parent": "block/cube_column",
+  
+  "textures": {
+    
+    "end": "epicbanana:blocks/banana_log",
+    
+    "side": "epicbanana:blocks/banana_log1"
+    
+}
+
+}
